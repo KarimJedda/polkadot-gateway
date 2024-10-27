@@ -16,7 +16,7 @@ Note: Light client functionality is not yet supported.
 
 ```python
 
-from polkadot import Polkadot
+from polkadot_gateway import Polkadot
 
 # Initialize Polkadot instance
 polka = Polkadot()  # Defaults to the mainnet relay chain
