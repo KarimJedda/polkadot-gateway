@@ -22,7 +22,7 @@ from polkadot import Polkadot
 polka = Polkadot()  # Defaults to the mainnet relay chain
 
 # Optionally, specify a custom RPC endpoint or use a testnet
-polka = Polkadot(endpoint="wss://rpc.polkadot.io")
+polka = Polkadot(endpoint="wss://polkadot-rpc-tn.dwellir.com")
 
 # Get account balance
 balance = polka.get_balance("12pDATAH2rCakrYjo6UoYFtmTEUpSyePTum8U5x9QdySZuqn")
