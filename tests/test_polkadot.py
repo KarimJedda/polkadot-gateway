@@ -1,8 +1,8 @@
 import unittest
 from unittest.mock import patch, MagicMock
 from decimal import Decimal
-from polkadot.polkadot import Polkadot
-from polkadot.exceptions import PolkadotException
+from polkadot_gateway.polkadot import Polkadot
+from polkadot_gateway.exceptions import PolkadotException
 
 class TestPolkadot(unittest.TestCase):
 
