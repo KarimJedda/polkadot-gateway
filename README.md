@@ -1,5 +1,8 @@
 # polkadot-gateway
 
+
+Note: Superseeded by https://github.com/KarimJedda/PyPolkadot 
+
 Abstractions for the Polkadot ecosystem. 
 
 This package is a very opinionated wrapper around `py-substrate-interface`. It provides a simple synchronous interface for interacting with the Polkadot ecosystem. The `polkadot-gateway` package can automatically detect when the metadata is outdated and refresh it behind the scenes. This ensures that developers don’t have to manually handle metadata updates.
